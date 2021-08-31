@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Franchise Oppurtunities | F&H Studio</title>
+    <style>  
+         
+        .parallax {
+            background-image: url("images/weight.jpeg");        
+            min-height: 500px;         
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .parallax1{
+            background-image: url("images/meditation.png");        
+            min-height: 300px;         
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .parallax2{
+            background-image: url("images/wallpaper.jpg");        
+            min-height: 250px;         
+            background-attachment: fixed;
+            background-position:center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-size: 30px;
+        }
+        .Welcome {
+            height: 100%;
+            align-items: center;
+            justify-content:center; 
+            font-family: calibri w01 regular 904604,tahoma,arial,helvetica,verdana,sans-serif;         
+}
+        .ram1 {
+        color: white;
+        top: 300px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        text-transform: uppercase;
+        font-size: 50px;
+}
+        ul {
+        display: block;
+        list-style-type: none;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 40px;
+        text-align: center;
+        text-indent: -3%;
+}
+        .circle {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        color: #fff;
+        text-align: center;
+        background: orangered;
+        font-family: sohogothicpro-bold;
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 20px;
+        position: relative;
+}
+.circle {
+    width: 200px;
+    height:200px;
+}
+.founded-block {
+    margin-top: 50px;
+}
+li{
+    display: inline-block;
+}
+.founded-block li {
+    display: inline-block;
+    text-align: center;
+    margin: 0 25px;
+    text-transform: uppercase;
+}
+ul {
+    list-style: none;
+}
+.circle {
+    width: 200px;
+    height: 200px;
+    font-size: 30px;
+    line-height: 24px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.circle_text {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    font-family: sohogothicpro-regular;
+}
+.san1 {
+    background-color:orangered;
+    background-position: center top;
+    height: 330px;
+    font-family: sohogothicpro-regular;
+    text-transform: uppercase;  
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display:none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 610px;
+  position: relative;
+  margin: auto;
+  border: 5px solid orangered;
+}
+.slideshow-container1 {
+  max-width: 200px;
+  position: relative;
+  margin: auto;
+  border: 3px solid orangered;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+.logo {
+   position: fixed;
+   top:0;
+   left: 0;
+   max-height: 51px;
+}
+
+/*vishnu*/
+#topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#04076A  ;
+  position: -webkit-sticky; 
+  position: fixed;
+  top: -2px;
+  width: 100%;   
+}
+#nav {
+  float:right;
+}
+li a {
+  display: block;
+  color:orangered;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a:hover{
+  color: white;
+}
+#dhoni{
+    background-color: lightgray;
+}
+#virat{
+    background-color: whitesmoke;
+}
+
+li a:hover {
+  background-color:white;
+  color:orangered;
+}
+#raina{
+    background-color: white;
+    color: orangered;
+    font-family: sohogothicpro-regular;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+#ab{
+    border: 5px solid orangered;
+}
+#kane{
+    background-color: orangered;
+    color: white;
+    border-radius: 5px;    
+    font-size :20px;
+}
+
+/*Footer*/
+
+.buttonsmall{
+   padding: 5px 10px;
+   line-height: 1.3rem;
+   background-color: orangered;
+   color: white;
+   font-size: 18px;
+   border-radius: 0.1cm;
+
+
+  }
+.buttonsmall:hover{
+	background-color: darkred;
+}
+  
+.footer
+{
+background-color: black;
+color: white;
+height: 350px;
+position: relative;
+margin: -10px;
+width: 100%;
+align-self: center;
+}
+
+.footer .footer-content{
+border: 1px orangered;
+height: 270px;
+display: flex;
+
+}
+
+.footer .footer-content .footer-section{
+flex: 1;
+padding: 25px;
+
+}
+
+.footer .footer-content h1,
+.footer .footer-content h2{
+	color: white;
+}
+
+.footer .footer-content .about .contact span{
+display: block;
+font-size: 1.1em;
+margin-bottom: 8px;
+
+}
+
+.footer .footer-content .about .social a
+{
+border: 1px grey;
+width: 45px;
+height: 41px;
+padding-top: 5px;
+margin-right: 5px;
+text-align: center;
+display: inline-block;
+font-size: 1.3em;
+border-radius: 5px;
+transition : all 0.3s;
+}
+
+.footer .footer-content .about .social a:hover{
+border: 1px white;
+background-color: grey;
+transition: all 0.3s;	
+}
+
+.footer .footer-content .contact-form .contact-input{
+background: white;
+color: grey;
+margin-bottom: 10px;
+line-height: 1.5rem;
+padding: 0.9 rem 1.4rem;
+border: none;
+}
+
+.footer .footer-content .contact-form .contact-input:focus{
+background-color: white;
+}
+
+.footer .footer-bottom{
+background-color:black;
+color: white;
+height: 50px;
+text-align: center;
+position: absolute;
+bottom: 0px;
+left: 0px;
+padding-top: 10px;
+margin: -10px;
+width: 100%;
+}
+
+
+/*social media*/
+.facebook{
+height: 25px;
+width: 25px;
+}	
+
+.facebook:hover{
+background-color: darkred;	
+}
+
+.instagram{
+	height: 25px;
+	width: 25px;
+	}	
+	
+.instagram:hover{
+	background-color: darkred;	
+	}
+
+.twitter{
+		height: 25px;
+		width: 25px;
+		}	
+		
+.twitter:hover{
+		background-color: darkred;	
+		}	
+
+.linkedin{
+			height: 25px;
+			width: 25px;
+			}	
+			
+.linkedin:hover{
+			background-color: darkred;	
+            }
+#dhawan:hover{
+  background-color: darkred;
+}
+            
+           
+</style> 
+</head>
+<body>
+  <div>
+    <ul id="topnav">
+        <li id="nav"><a href="https://www.cure.fit/cult/othergyms" target="blank" style="background-color: turquoise;color: orangered;" >Buy Now</a></li> 
+        <li id="nav"><a href="lindex.html">Try Us</a></li> 
+        <li id="nav"><a href="vishnumain.html">Train With Us</a></LI>
+        <li id="nav"><a href="main.html">Membership</a></li>
+        <li id="nav"><a href="Own A Franchise.html">Own a Franchise</a></li>
+     </ul>
+     <img src="images/logo.jpeg" class="logo" style="height: 58px;width: 100px;position:topleft;"/>      
+</div><br><br>
+<div class="parallax">
+<div class="Welcome">
+<div class="ram1"></div><br><br><br><br><br><p id="demo" style="text-align: right;color: white;font-size: 20px;text-align: right;"></p><p style="text-align: right;color: white;font-size: 20px;text-align: right;">Number of times this page has been visited :<div id="CounterVisitor" style="font-size: 30px;font-family: Arial, Helvetica, sans-serif;text-align: right;color: white;">
+  <span class="counter-item">0</span>
+  <span class="counter-item">0</span>
+  <span class="counter-item">1</span>
+  <span class="counter-item">1</span>
+  <span class="counter-item">8</span>
+  <span class="counter-item">4</span>
+</div>
+</p><p style="text-align:center;color:white;font-family:sohogothicpro-bolditalic;font-size: 60px;font-weight: bold;font-style: italic;"><br>FRANCHISE OPPORTUNITIES</p>
+<br>
+</div>
+</div>
+<div id="dhoni" class="column" style="text-align: center;">
+    <br><br><br><br>
+    <div class="row">
+    <p style="text-align: center;font-size: 50px;font-family: sohogothicpro-regular;color:orangered;">OUR CLUB MEMBERS</p>
+      <img src="images/sl1.jpg" style="border: 5px solid orangered;" width="375" height="300">
+      <img src="images/sl2.jpg"  style="border: 5px solid orangered;" width="375" height="300">
+      <img src="images/sl3.jpg" style="border: 5px solid orangered;"  width="375" height="300">
+      <br><br><br><br><br><br><br><br><br>
+    </div>
+</div>
+<div id="virat">
+<div>
+    <p style="font-size: 50px;text-align: center;font-family: sohogothicpro-regular;"><br>ABOUT F&amp;H CENTER</p>
+    <p style="text-align: center;font-family:sohogothicpro-regular;font-size: 30px;">Premium and High end fitness clubs with state of the art machines & facilities.<br>
+        Presence in Delhi & Mumbai in India.</p>
+</div>
+<ul class="founded-block">
+    <li>
+        <div class="circle"::before>
+            <div class="circle_text">
+                1993 
+                <span>founded </span>
+        </div>        
+    </div>
+    <p style="font-family: sohogothicpro-regular;font-size: 20px;font-weight: bold;">In United Kingdom</p>
+    </li>
+    <li>
+        <div class="circle" ::before>
+           <div class="circle_text">
+            380<br>
+            <span>Clubs</span>
+           </div>
+        </div>
+        <p style="font-family: sohogothicpro-regular;font-size: 20px;font-weight: bold;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Across 17 Countries</p>
+    </li>&nbsp;&nbsp;&nbsp;&nbsp;
+    <li>
+        <div class="circle" ::before>
+            <div class="circle_text">
+                 10<br>
+                <span>Lakhs</span>
+            </div>
+        </div>
+        <p style="font-family: sohogothicpro-regular;font-size: 20px;font-weight: bold;">&nbsp;&nbsp; Members</p>
+    </li>
+</ul>
+<br><br><br><br>
+</div>
+</div>
+<div class="parallax1">
+    <div class="Welcome">
+    <h5 class="ram1" style="font-family: sohogothicpro-regular;font-size: 50px;font-weight: bold;font-style: italic;color: orangered;"><br><br>OFFERING &amp; FACILITIES</h5>
+    </div>
+    <br>
+</div>
+
+<div id="dhoni">
+    <br><br><br><br>
+<table cellpadding="25">
+    <tr>
+        <td>
+            <ul>
+                <li><img src="images/group-exercise.png"><br>Group Exercise</li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <li><img src="images/gym-floor.png"><br>GYM Floor</li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <li><img src="images/cardio-theatre.png"><br>Cardio Area</li>&nbsp;&nbsp;&nbsp;
+                <li><img src="images/cycle-studio.png"><br>Cycle Studio</li>
+            </ul>
+            <br>
+            <ul>
+                <li><img src="images/free-weights.png"><br>Free Weights</li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <li>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/freestyle.png"><br>Freestyle</li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <li>&nbsp;&nbsp;<img src="images/wifi.png"><br>Internet Station</li>&nbsp;
+                <li>&nbsp;<img src="images/monsoon-shower.png"><br>Shower Area</li>
+            </ul>
+            <br>
+            <ul>
+                <li><img src="images/steam-sauna.png"><br>Steam Room</li>&nbsp;&nbsp;&nbsp;
+                <li>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/loaded-weights.png"><br>Strength Area</li>&nbsp;&nbsp;
+                <li>&nbsp;&nbsp;<img src="images/pt.png"><br>Personal Training</li>&nbsp;&nbsp;
+                <li>&nbsp<img src="images/towel-services.png"><br>Towel Service</li>
+            </ul>
+            <br>
+            <ul>
+                <li><img src="images/f-b.png"><br>F &amp;B</li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <li><img src="images/lounge-area.png"><br>Members Lounge</li>
+                <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/yoga.png"><br>&nbsp;&nbsp;&nbsp;&nbsp;Yoga</li>
+                <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/nutrition-counseling.png"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nutrition Counseling</li>
+            </ul>
+        </td>
+        <td>
+          <p style="text-align: center;font-size: 20px;font-family:sohogothicpro-regular;color:orangered">WE ARE PROUD TO INTRODUCE YOU <BR>TO OUR TOP MOST MEMBER</p>
+            <img src="images/MSD.jpg" width="500" height="450" style="text-align: center;border: 6px solid orangered;"/>
+        </td>
+    </tr>
+    </table>
+    <br><br><br><br>
+</div>
+<div class="parallax2">
+    <div class="Welcome">
+    <p class="ram1" style="font-size: 40px;font-family: sohogothicpro-regular;text-align: center;color: whitesmoke;"><br><br>READY TO MOVE AHEAD WITH US ?</p>
+    <div style="text-align: center;"><form><a href="https://curefit.typeform.com/to/tNfgmH" target="_blank"><input type="button" id="raina" value="OWN A FRANCHISE"/></a></form><br><br></div>
+    </div>
+</div>
+<div id="dhoni">
+    <p style="font-size: 50px;text-align: center;font-family: sohogothicpro-regular;color:orangered;"><br><br>CLUB PICTURES</p>
+    <p style="font-size: 30px;text-align: center;font-family:sohogothicpro-regular;">Premium high end fitness clubs with state of the art machines, equipment and facilities</p>
+    <br>
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 6</div>
+      <img src="images/img1.jpg" style="width: 900;height: 700;">
+      <div class="text">WORKOUT ZONE</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 6</div>
+      <img src="images/img2.jpg" style="width: 900;height: 700;">
+      <div class="text">FITNESS ZONE</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">3 / 6</div>
+        <img src="images/img3.jpg" style="width: 900;height: 700;">
+        <div class="text">PLAY ZONE</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">4 / 6</div>
+        <img src="images/img4.jpg" style="width: 900;height: 700;">
+        <div class="text">TREADMILL ZONE</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">5 / 6</div>
+        <img src="images/img5.jpg" style="width: 900;height: 700;">
+        <div class="text">REFRESHMENT ZONE</div>
+      </div>
+       
+    <div class="mySlides fade">
+      <div class="numbertext">6 / 6</div>
+      <img src="images/img6.jpg" style="width: 900;height: 700;">
+      <div class="text">LUGGAGE ZONE</div>
+    </div>
+    
+    </div>
+    <br>    
+    <div style="text-align:center">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+    </div> 
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+</div>
+<div style="text-align: center;" id="virat">
+    <br>
+    <p style="font-size: 50px;font-weight: bold;font-family: sohogothicpro-regular;color: orangered;">F &amp; H CENTER'S EXCLUSIVE <br>MALL IN INDIA(NOIDA)</p>
+    <video width="800" height="600" controls loop autoplay muted>
+        <source src="images/video.mp4" type="video/mp4">
+    </video> 
+    <br><br><br><br>   
+</div>
+<div id="dhoni">
+    <br><br><br>
+    <p style="text-align: center;font-size: 50px;font-family: sohogothicpro-regular;color: orangered;">CITIES OPEN FOR FRANCHISE</p>
+    <div class="column" style="text-align: center;">
+        <div class="row">
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/bangalore.jpg" alt="Bangalore"  id="ab">&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="images/chennai.jpg" alt="Chennai"  id="ab">&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="images/mumbai.jpg" alt="Mumbai"  id="ab">&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="images/delhi.jpg" alt="Delhi"  id="ab">&nbsp;&nbsp;&nbsp;&nbsp;
+            <br>
+            <form style="text-align: left;" >
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" id="kane" value="BANGALORE">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" id="kane" value="CHENNAI">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" id="kane" value="MUMBAI">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" id="kane" value="DELHI">
+            </form>
+            <br><br><br><br><br><br><br>
+        </div>
+        <div>
+           <table align="center" cellpadding="50">
+               <tr>
+                   <td style="background-color: whitesmoke;">
+                    <p style="font-family: sohogothicpro-regular;color:orangered;font-size: 30px;text-align:center;">LOGIN INTO YOUR F&AMP;H CENTER ACCOUNT</p>
+                    <p style="text-align: center;" id="dhawan"><form><a href="try_a_club_for_free.html" target="_blank" ><input type="button" style="font-size:20px;color:white;background-color: orangered;border-radius: 10px;"  value="GET ME TO THE LOGIN PAGE"></a></form></p>
+                   </td>
+               </tr>
+           </table>
+            <br><br><br>
+        </div>        
+    </div>
+    <div class="footer" style="font-family: sohogothicpro-regular;font-size: 20px;">
+        <div class="footer-content">
+          <div class="footer-section links">
+          <h1>F&H Center</h1>
+          <p> F&H Center,India's largest chain of fitness centres that offers energetic group workouts and multiple workout formats to choose from.In 2018, F&H Center was acquired by cure.fit</p>
+          <div class="contact">
+              <span><i class="fas fa-phone"></i>&nbsp;Toll Free No.:&nbsp; 1800-235-435</span><br>
+              <span><i class="fas fa-envelope"></i>&nbsp;Mail:&nbsp;fandhcenter@outlook.com</span><br><br>
+          </div>
+          <div class="social">
+            <a class="facebook" href="https://www.facebook.com/FitnessFirstIndia"><img src="images/facebook.jpeg" height="25px" width="25px"></a> &nbsp;&nbsp;&nbsp;  
+            <a class="instagram" href="https://www.instagram.com/fitnessfirstindia/"><img src="images/instagram.jpeg" height="25px" width="25px"></a> &nbsp;&nbsp;&nbsp;
+            <a class="twitter" href="https://twitter.com/in_fitnessfirst"><img src="images/twitter.jpeg" height="25px" width="25px"></a>  &nbsp;&nbsp;&nbsp;
+            <a class="linkedin" href="https://www.linkedin.com/company/fitness-first-india-pvt-ltd"><img src="images/linkedin.jpeg" height="25px" width="25px"></a>  &nbsp;&nbsp;&nbsp;
+          </div>
+          </div>
+          <div class="footer-section contact-form">
+           <h2>Contact Us</h2>
+           <br>
+           <form action="index.html" method="post">
+               <input type="email" name="email" class="text-input contact-input" placeholder="Your email address..."><br><br>
+               <textarea name="message" class="text-input contact-input" placeholder="Your message..."></textarea><br>
+               <button type="submit" class="buttonsmall">
+                   Send
+               </button>
+           </form>         
+          </div>
+        </div>
+        <div class="footer-bottom">
+           2012©Copyrighted F&HCenter.com      
+        </div>
+        <br>
+        <br>                        
+    </div>
+</body>
+<script>
+var slideIndex = 0;
+showSlides();
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); 
+}
+var d = new Date();
+document.getElementById("demo").innerHTML = d;
+
+var n = localStorage.getItem('on_load_counter');
+        
+        if (n === null) {
+          n = 0;
+        }
+        n++;
+        
+        localStorage.setItem("on_load_counter", n);
+        
+        nums = n.toString().split('').map(Number);
+        document.getElementById('CounterVisitor').innerHTML = '';
+        for (var i of nums) {
+          document.getElementById('CounterVisitor').innerHTML += '<span class="counter-item">' + i + '</span>';
+        }
+</script>
+</html>
